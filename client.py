@@ -8,7 +8,6 @@ height = 700
 win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Client")
 
-
 class Button:
     def __init__(self, text, x, y, color):
         self.text = text
